@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgb(216, 216, 216);
+  text-align: center;
+}
+
+.footer_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer_area .fa-brands {
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+.header {
+  justify-content: space-between;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  align-items: center;
+  height: 65px;
+  background: rgb(241, 249, 219);
+}
+
+.header_logo {
+  align-items: center;
+}
+
+.header_logo img {
+  object-fit: cover;
+  width: 120px;
+  height: 50px;
+}
+
+.header_text {
+  margin-right: 20px;
+  align-items: center;
+}
+
+.header_text a {
+  color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  background-image: url("https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a3lvdG98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1200&q=60");
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  padding: 60px 0;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 30px 0;
+  }
+}
+
+.container_title {
+  text-align: center;
+  color: #0d84ec;
+  font-size: 48px;
+  padding-bottom: 30px;
+  font-weight: 700;
+  font-family: "Abril Fatface", cursive;
+}
+
+.container_contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container_contents .container_content {
+  margin-bottom: 30px;
+  width: 30%;
+  text-align: center;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .container_contents .container_content {
+    width: 48%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container_contents .container_content {
+    width: 100%;
+  }
+}
+
+.container_contents .container_content img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.container_contents .container_content_text {
+  font-size: 24px;
+  font-family: "Abril Fatface", cursive;
+}
+
+/*# sourceMappingURL=main.css.map */

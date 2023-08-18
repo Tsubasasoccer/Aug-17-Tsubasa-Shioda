@@ -1,0 +1,27 @@
+$title-color:#0d84ec;
+$text-color:black;
+$text-color-2:white;
+$font-size-sm:16px;
+$font-size-md:24px;
+$font-size-lg:48px;
+$font-weight:(
+  "regular":400,
+  "advanced":500,
+  "bold":700,
+  "italic":800
+);
+$header-background:rgb(241, 249, 219);
+$footer-background:rgb(216, 216, 216);
+
+@function weights($wight-name){
+  @return map-get($font-weight, $wight-name);
+};
+@mixin flexContainer{
+  justify-content: space-between;
+  display: flex;
+};
+@mixin Container{
+max-width: 1200px;
+margin: 0 auto;
+padding: 10px;
+};

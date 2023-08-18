@@ -1,0 +1,16 @@
+@import './variable';
+.footer{
+  @include Container;
+  background-color: $footer-background;
+  text-align: center;
+  &_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    .fa-brands{
+      font-size: $font-size-md;
+      margin-right: 15px;
+    }
+  }
+}
